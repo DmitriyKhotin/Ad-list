@@ -1,8 +1,9 @@
 .form{
     height: 400px;
     width: 500px;
-    border: 1px solid #aba7a7;
+    border: 2px solid #353434;
     border-radius: 16px;
+    margin-bottom: 50px;
 }
 
 .form__head{
@@ -41,4 +42,23 @@
     border: none;
     margin-top: 4px;
     margin-left: 454px;
+}
+
+
+@media screen and (max-width: 1100px) {
+    .form{
+        width: 400px;
+    }
+
+    .item__title{
+        width: 150px;
+    }
+
+    .item__body{
+        width: 200px;
+    }
+
+    .form__handler{
+        margin-left: 354px;
+    }
 }

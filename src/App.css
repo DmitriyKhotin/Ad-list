@@ -3,3 +3,12 @@
     justify-content: space-around;
     margin-top: 50px;
 }
+
+@media screen and (max-width: 800px) {
+    .App{
+        margin: 50px auto;
+        width: 400px;
+        display: block;
+        justify-content: inherit;
+    }
+}
