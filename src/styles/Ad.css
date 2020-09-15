@@ -1,0 +1,22 @@
+.post{
+    height: 300px;
+    width: 500px;
+    border: 1px solid #aba7a7;
+    border-radius: 16px;
+    margin-bottom: 30px;
+}
+
+.post__deleteBtn{
+    background: url("../assets/close.png");
+    height: 24px;
+    width: 24px;
+    border: none;
+    margin-left: 462px;
+    margin-top: 10px;
+}
+
+.post__about{
+    text-align: end;
+    width: 400px;
+    margin-left: 85px;
+}

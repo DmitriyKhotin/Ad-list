@@ -1,0 +1,44 @@
+.form{
+    height: 400px;
+    width: 500px;
+    border: 1px solid #aba7a7;
+    border-radius: 16px;
+}
+
+.form__head{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.item__title{
+    height: 20px;
+    margin: auto 0;
+}
+
+.item__body{
+    width: 280px;
+    border-radius: 5px;
+    padding: 3px;
+    border: 1px solid silver;
+}
+
+.textarea{
+    height: 100px;
+    resize: none;
+}
+
+.form__handler{
+    background: url("../assets/send.png");
+    height: 32px;
+    width: 32px;
+    border: none;
+    margin-top: 4px;
+    margin-left: 454px;
+}
