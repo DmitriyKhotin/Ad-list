@@ -62,3 +62,27 @@
         margin-left: 354px;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .form{
+        width: 340px;
+        height: 360px
+    }
+
+    .item__title{
+        width: 100px;
+    }
+
+    .item__body{
+        width: 200px;
+    }
+
+    .textarea{
+        height: 80px;
+    }
+
+    .form__handler{
+        margin-left: 294px;
+    }
+}
+

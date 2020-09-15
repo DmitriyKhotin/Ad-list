@@ -12,3 +12,12 @@
         justify-content: inherit;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .App{
+        margin: 10px auto;
+        width: 340px;
+        display: block;
+        justify-content: inherit;
+    }
+}
